@@ -1,0 +1,6 @@
+{
+  "name": "HAVEN HOME Nieruchomości",
+  "description": "Luksusowa, nowoczesna strona premium dla agencji nieruchomości HAVEN HOME Nieruchomości - Wrocław i Oborniki Śląskie.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
