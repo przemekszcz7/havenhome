@@ -120,7 +120,7 @@ export default function App() {
 
 
   return (
-    <div className="min-h-screen bg-dark-950 font-sans text-white relative selection:bg-gold-500 selection:text-dark-950">
+    <div className="min-h-screen bg-dark-950 font-sans text-white relative selection:bg-gold-500 selection:text-dark-950 overflow-x-hidden">
       
 
 
@@ -280,10 +280,9 @@ export default function App() {
       {/* 2. HERO PARALLAX HEADER */}
       <header id="hero" className="relative min-h-screen flex items-center justify-center bg-zinc-950 overflow-hidden pt-16">
         <div 
-          className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 origin-center scale-[1.03]" 
+          className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 origin-center scale-[1.03] bg-scroll md:bg-fixed" 
           style={{ 
-            backgroundImage: "url('https://i.ibb.co/NhKfCXn/669601685-122097993578737282-113794200590279432-n.jpg')",
-            backgroundAttachment: "fixed" 
+            backgroundImage: "url('https://i.ibb.co/NhKfCXn/669601685-122097993578737282-113794200590279432-n.jpg')"
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-dark-950/70 via-dark-950/40 to-dark-950 z-10" />
